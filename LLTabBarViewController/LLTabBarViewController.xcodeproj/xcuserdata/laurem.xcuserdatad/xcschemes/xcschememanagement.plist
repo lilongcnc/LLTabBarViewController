@@ -4,7 +4,7 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>LLTbarBarViewController.xcscheme</key>
+		<key>LLTabBarViewController.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>0</integer>
@@ -12,17 +12,17 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>890E2DC61CCF506100E4137F</key>
+		<key>8B452E561CCFB403009E61B1</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>890E2DDF1CCF506100E4137F</key>
+		<key>8B452E6F1CCFB403009E61B1</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>890E2DEA1CCF506100E4137F</key>
+		<key>8B452E7A1CCFB403009E61B1</key>
 		<dict>
 			<key>primary</key>
 			<true/>

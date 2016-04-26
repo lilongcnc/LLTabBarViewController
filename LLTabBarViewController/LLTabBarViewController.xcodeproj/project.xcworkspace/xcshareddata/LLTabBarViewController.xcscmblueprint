@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "38C4DE1EDD02BB38DDCF875887A500ABF032B5F1",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "E955CF6293378C90EB78E5A094E275F3212B559C" : 0,
+    "38C4DE1EDD02BB38DDCF875887A500ABF032B5F1" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "13222A0D-56F3-4578-ACD9-6AC60FCF475F",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "E955CF6293378C90EB78E5A094E275F3212B559C" : "",
+    "38C4DE1EDD02BB38DDCF875887A500ABF032B5F1" : "LLTabBarViewController\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "LLTabBarViewController",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "LLTabBarViewController\/LLTabBarViewController.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "github.com:lilongcnc\/LLTabBarViewController.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "38C4DE1EDD02BB38DDCF875887A500ABF032B5F1"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "github.com:lilongcnc\/TestDemo0322.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "E955CF6293378C90EB78E5A094E275F3212B559C"
+    }
+  ]
+}

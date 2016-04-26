@@ -1,9 +1,9 @@
 //
 //  ViewController.m
-//  SXCustomTabBar
+//  LLTabBarViewController
 //
-//  Created by ShaoPro on 15/12/24.
-//  Copyright © 2015年 ShaoPro. All rights reserved.
+//  Created by 李龙 on 16/4/26.
+//  Copyright © 2016年 lauren. All rights reserved.
 //
 
 #import "ViewController.h"
@@ -23,6 +23,5 @@
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }
-
 
 @end

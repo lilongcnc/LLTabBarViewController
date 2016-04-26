@@ -1,18 +1,18 @@
 //
-//  LLTbarBarViewControllerTests.m
-//  LLTbarBarViewControllerTests
+//  LLTabBarViewControllerTests.m
+//  LLTabBarViewControllerTests
 //
 //  Created by 李龙 on 16/4/26.
-//  Copyright © 2016年 李龙. All rights reserved.
+//  Copyright © 2016年 lauren. All rights reserved.
 //
 
 #import <XCTest/XCTest.h>
 
-@interface LLTbarBarViewControllerTests : XCTestCase
+@interface LLTabBarViewControllerTests : XCTestCase
 
 @end
 
-@implementation LLTbarBarViewControllerTests
+@implementation LLTabBarViewControllerTests
 
 - (void)setUp {
     [super setUp];

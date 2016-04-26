@@ -14,10 +14,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "890E2DC61CCF506100E4137F"
-               BuildableName = "LLTbarBarViewController.app"
-               BlueprintName = "LLTbarBarViewController"
-               ReferencedContainer = "container:LLTbarBarViewController.xcodeproj">
+               BlueprintIdentifier = "8B452E561CCFB403009E61B1"
+               BuildableName = "LLTabBarViewController.app"
+               BlueprintName = "LLTabBarViewController"
+               ReferencedContainer = "container:LLTabBarViewController.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -32,30 +32,30 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "890E2DDF1CCF506100E4137F"
-               BuildableName = "LLTbarBarViewControllerTests.xctest"
-               BlueprintName = "LLTbarBarViewControllerTests"
-               ReferencedContainer = "container:LLTbarBarViewController.xcodeproj">
+               BlueprintIdentifier = "8B452E6F1CCFB403009E61B1"
+               BuildableName = "LLTabBarViewControllerTests.xctest"
+               BlueprintName = "LLTabBarViewControllerTests"
+               ReferencedContainer = "container:LLTabBarViewController.xcodeproj">
             </BuildableReference>
          </TestableReference>
          <TestableReference
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "890E2DEA1CCF506100E4137F"
-               BuildableName = "LLTbarBarViewControllerUITests.xctest"
-               BlueprintName = "LLTbarBarViewControllerUITests"
-               ReferencedContainer = "container:LLTbarBarViewController.xcodeproj">
+               BlueprintIdentifier = "8B452E7A1CCFB403009E61B1"
+               BuildableName = "LLTabBarViewControllerUITests.xctest"
+               BlueprintName = "LLTabBarViewControllerUITests"
+               ReferencedContainer = "container:LLTabBarViewController.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "890E2DC61CCF506100E4137F"
-            BuildableName = "LLTbarBarViewController.app"
-            BlueprintName = "LLTbarBarViewController"
-            ReferencedContainer = "container:LLTbarBarViewController.xcodeproj">
+            BlueprintIdentifier = "8B452E561CCFB403009E61B1"
+            BuildableName = "LLTabBarViewController.app"
+            BlueprintName = "LLTabBarViewController"
+            ReferencedContainer = "container:LLTabBarViewController.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -75,10 +75,10 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "890E2DC61CCF506100E4137F"
-            BuildableName = "LLTbarBarViewController.app"
-            BlueprintName = "LLTbarBarViewController"
-            ReferencedContainer = "container:LLTbarBarViewController.xcodeproj">
+            BlueprintIdentifier = "8B452E561CCFB403009E61B1"
+            BuildableName = "LLTabBarViewController.app"
+            BlueprintName = "LLTabBarViewController"
+            ReferencedContainer = "container:LLTabBarViewController.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -94,10 +94,10 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "890E2DC61CCF506100E4137F"
-            BuildableName = "LLTbarBarViewController.app"
-            BlueprintName = "LLTbarBarViewController"
-            ReferencedContainer = "container:LLTbarBarViewController.xcodeproj">
+            BlueprintIdentifier = "8B452E561CCFB403009E61B1"
+            BuildableName = "LLTabBarViewController.app"
+            BlueprintName = "LLTabBarViewController"
+            ReferencedContainer = "container:LLTabBarViewController.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

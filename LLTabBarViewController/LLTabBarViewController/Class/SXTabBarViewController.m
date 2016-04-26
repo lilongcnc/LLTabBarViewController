@@ -9,6 +9,9 @@
 #import "SXTabBarViewController.h"
 #import "LLTabBar.h"
 
+//typedef NS_OPTIONS(NSUInteger, LLTaBar) {
+//};
+
 @interface SXTabBarViewController ()
 {
     CGAffineTransform trans;
@@ -103,12 +106,18 @@
 
     
     
-    _titles = @[@"测试一",@"测试二",@"",@"测试三",@"测试si"];
-    NSArray * norImagesArr = @[@"tabbar_contacts",@"tabbar_discover",@"1",@"tabbar_mainframe",@"3"];
-    NSArray * seleImagesArr = @[@"tabbar_contactsHL",@"tabbar_discoverHL",@"11",@"tabbar_mainframeHL",@"33"];
-//    NSArray *norImagesArr = @[@"1",@"2",@"2",@"3",@"3"];
-//    NSArray *seleImagesArr = @[@"11",@"22",@"22",@"33",@"33"];
+//    _titles = @[@"测试一",@"测试二",@"",@"测试三",@"测试si"];
+//    NSArray * norImagesArr = @[@"tabbar_contacts",@"tabbar_discover",@"1",@"tabbar_mainframe",@"3"];
+//    NSArray * seleImagesArr = @[@"tabbar_contactsHL",@"tabbar_discoverHL",@"11",@"tabbar_mainframeHL",@"33"];
     
+//    _titles = @[@"测试一",@"测试二",@"111"];
+//    NSArray *norImagesArr = @[@"1",@"2",@"2",];
+//    NSArray *seleImagesArr = @[@"11",@"22",@"22"];
+
+    
+    _titles = @[@"测试一",@"测试二",@"111",@"测试一",@"测试二",@"111"];
+    NSArray *norImagesArr = @[@"1",@"2",@"2",@"1",@"2",@"2"];
+    NSArray *seleImagesArr = @[@"11",@"22",@"22",@"1",@"2",@"2"];
     
     //按钮宽度
     CGFloat tabBarwidth = 50;
@@ -151,6 +160,11 @@
         
         [self.tabBarArray addObject:tabbarView];
     }
+    
+    
+//    UIButton *butto = [[UIButton alloc] init];
+//    [butto setTitle:@"" forState:UIControlStateNormal];
+    
     _imageView.userInteractionEnabled = YES;
     
 }
