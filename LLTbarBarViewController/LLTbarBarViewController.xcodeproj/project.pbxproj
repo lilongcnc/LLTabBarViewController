@@ -1,0 +1,593 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		890E2DCC1CCF506100E4137F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 890E2DCB1CCF506100E4137F /* main.m */; };
+		890E2DCF1CCF506100E4137F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 890E2DCE1CCF506100E4137F /* AppDelegate.m */; };
+		890E2DD51CCF506100E4137F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 890E2DD31CCF506100E4137F /* Main.storyboard */; };
+		890E2DD71CCF506100E4137F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 890E2DD61CCF506100E4137F /* Assets.xcassets */; };
+		890E2DDA1CCF506100E4137F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 890E2DD81CCF506100E4137F /* LaunchScreen.storyboard */; };
+		890E2DE51CCF506100E4137F /* LLTbarBarViewControllerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 890E2DE41CCF506100E4137F /* LLTbarBarViewControllerTests.m */; };
+		890E2DF01CCF506100E4137F /* LLTbarBarViewControllerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 890E2DEF1CCF506100E4137F /* LLTbarBarViewControllerUITests.m */; };
+		890E2E031CCF50B300E4137F /* LLTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 890E2E001CCF50B300E4137F /* LLTabBar.m */; };
+		890E2E041CCF50B300E4137F /* VMTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 890E2E021CCF50B300E4137F /* VMTabBar.m */; };
+		890E2E081CCF517800E4137F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 890E2E071CCF517800E4137F /* ViewController.m */; };
+		890E2E151CCF518900E4137F /* NextViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 890E2E0B1CCF518900E4137F /* NextViewController.m */; };
+		890E2E161CCF518900E4137F /* NextViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 890E2E0C1CCF518900E4137F /* NextViewController.xib */; };
+		890E2E171CCF518900E4137F /* OneViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 890E2E0E1CCF518900E4137F /* OneViewController.m */; };
+		890E2E181CCF518900E4137F /* SXTabBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 890E2E101CCF518900E4137F /* SXTabBarViewController.m */; };
+		890E2E191CCF518900E4137F /* ThreeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 890E2E121CCF518900E4137F /* ThreeViewController.m */; };
+		890E2E1A1CCF518900E4137F /* TwoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 890E2E141CCF518900E4137F /* TwoViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		890E2DE11CCF506100E4137F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 890E2DBF1CCF506100E4137F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 890E2DC61CCF506100E4137F;
+			remoteInfo = LLTbarBarViewController;
+		};
+		890E2DEC1CCF506100E4137F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 890E2DBF1CCF506100E4137F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 890E2DC61CCF506100E4137F;
+			remoteInfo = LLTbarBarViewController;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		890E2DC71CCF506100E4137F /* LLTbarBarViewController.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LLTbarBarViewController.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		890E2DCB1CCF506100E4137F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		890E2DCD1CCF506100E4137F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		890E2DCE1CCF506100E4137F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		890E2DD41CCF506100E4137F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		890E2DD61CCF506100E4137F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		890E2DD91CCF506100E4137F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		890E2DDB1CCF506100E4137F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		890E2DE01CCF506100E4137F /* LLTbarBarViewControllerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LLTbarBarViewControllerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		890E2DE41CCF506100E4137F /* LLTbarBarViewControllerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LLTbarBarViewControllerTests.m; sourceTree = "<group>"; };
+		890E2DE61CCF506100E4137F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		890E2DEB1CCF506100E4137F /* LLTbarBarViewControllerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LLTbarBarViewControllerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		890E2DEF1CCF506100E4137F /* LLTbarBarViewControllerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LLTbarBarViewControllerUITests.m; sourceTree = "<group>"; };
+		890E2DF11CCF506100E4137F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		890E2DFE1CCF50B300E4137F /* ILSingletom.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ILSingletom.h; sourceTree = "<group>"; };
+		890E2DFF1CCF50B300E4137F /* LLTabBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LLTabBar.h; sourceTree = "<group>"; };
+		890E2E001CCF50B300E4137F /* LLTabBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LLTabBar.m; sourceTree = "<group>"; };
+		890E2E011CCF50B300E4137F /* VMTabBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VMTabBar.h; sourceTree = "<group>"; };
+		890E2E021CCF50B300E4137F /* VMTabBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VMTabBar.m; sourceTree = "<group>"; };
+		890E2E061CCF517800E4137F /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		890E2E071CCF517800E4137F /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		890E2E0A1CCF518900E4137F /* NextViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NextViewController.h; sourceTree = "<group>"; };
+		890E2E0B1CCF518900E4137F /* NextViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NextViewController.m; sourceTree = "<group>"; };
+		890E2E0C1CCF518900E4137F /* NextViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NextViewController.xib; sourceTree = "<group>"; };
+		890E2E0D1CCF518900E4137F /* OneViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OneViewController.h; sourceTree = "<group>"; };
+		890E2E0E1CCF518900E4137F /* OneViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OneViewController.m; sourceTree = "<group>"; };
+		890E2E0F1CCF518900E4137F /* SXTabBarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SXTabBarViewController.h; sourceTree = "<group>"; };
+		890E2E101CCF518900E4137F /* SXTabBarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SXTabBarViewController.m; sourceTree = "<group>"; };
+		890E2E111CCF518900E4137F /* ThreeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThreeViewController.h; sourceTree = "<group>"; };
+		890E2E121CCF518900E4137F /* ThreeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThreeViewController.m; sourceTree = "<group>"; };
+		890E2E131CCF518900E4137F /* TwoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TwoViewController.h; sourceTree = "<group>"; };
+		890E2E141CCF518900E4137F /* TwoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TwoViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		890E2DC41CCF506100E4137F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		890E2DDD1CCF506100E4137F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		890E2DE81CCF506100E4137F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		890E2DBE1CCF506100E4137F = {
+			isa = PBXGroup;
+			children = (
+				890E2DC91CCF506100E4137F /* LLTbarBarViewController */,
+				890E2DE31CCF506100E4137F /* LLTbarBarViewControllerTests */,
+				890E2DEE1CCF506100E4137F /* LLTbarBarViewControllerUITests */,
+				890E2DC81CCF506100E4137F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		890E2DC81CCF506100E4137F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				890E2DC71CCF506100E4137F /* LLTbarBarViewController.app */,
+				890E2DE01CCF506100E4137F /* LLTbarBarViewControllerTests.xctest */,
+				890E2DEB1CCF506100E4137F /* LLTbarBarViewControllerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		890E2DC91CCF506100E4137F /* LLTbarBarViewController */ = {
+			isa = PBXGroup;
+			children = (
+				890E2E051CCF50B600E4137F /* Others */,
+				890E2DFD1CCF508200E4137F /* Venders */,
+				890E2E091CCF518900E4137F /* Class */,
+				890E2E061CCF517800E4137F /* ViewController.h */,
+				890E2E071CCF517800E4137F /* ViewController.m */,
+				890E2DD31CCF506100E4137F /* Main.storyboard */,
+				890E2DCA1CCF506100E4137F /* Supporting Files */,
+			);
+			path = LLTbarBarViewController;
+			sourceTree = "<group>";
+		};
+		890E2DCA1CCF506100E4137F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				890E2DCB1CCF506100E4137F /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		890E2DE31CCF506100E4137F /* LLTbarBarViewControllerTests */ = {
+			isa = PBXGroup;
+			children = (
+				890E2DE41CCF506100E4137F /* LLTbarBarViewControllerTests.m */,
+				890E2DE61CCF506100E4137F /* Info.plist */,
+			);
+			path = LLTbarBarViewControllerTests;
+			sourceTree = "<group>";
+		};
+		890E2DEE1CCF506100E4137F /* LLTbarBarViewControllerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				890E2DEF1CCF506100E4137F /* LLTbarBarViewControllerUITests.m */,
+				890E2DF11CCF506100E4137F /* Info.plist */,
+			);
+			path = LLTbarBarViewControllerUITests;
+			sourceTree = "<group>";
+		};
+		890E2DFD1CCF508200E4137F /* Venders */ = {
+			isa = PBXGroup;
+			children = (
+				890E2DFE1CCF50B300E4137F /* ILSingletom.h */,
+				890E2DFF1CCF50B300E4137F /* LLTabBar.h */,
+				890E2E001CCF50B300E4137F /* LLTabBar.m */,
+				890E2E011CCF50B300E4137F /* VMTabBar.h */,
+				890E2E021CCF50B300E4137F /* VMTabBar.m */,
+			);
+			name = Venders;
+			sourceTree = "<group>";
+		};
+		890E2E051CCF50B600E4137F /* Others */ = {
+			isa = PBXGroup;
+			children = (
+				890E2DD61CCF506100E4137F /* Assets.xcassets */,
+				890E2DD81CCF506100E4137F /* LaunchScreen.storyboard */,
+				890E2DDB1CCF506100E4137F /* Info.plist */,
+				890E2DCD1CCF506100E4137F /* AppDelegate.h */,
+				890E2DCE1CCF506100E4137F /* AppDelegate.m */,
+			);
+			name = Others;
+			sourceTree = "<group>";
+		};
+		890E2E091CCF518900E4137F /* Class */ = {
+			isa = PBXGroup;
+			children = (
+				890E2E0A1CCF518900E4137F /* NextViewController.h */,
+				890E2E0B1CCF518900E4137F /* NextViewController.m */,
+				890E2E0C1CCF518900E4137F /* NextViewController.xib */,
+				890E2E0D1CCF518900E4137F /* OneViewController.h */,
+				890E2E0E1CCF518900E4137F /* OneViewController.m */,
+				890E2E0F1CCF518900E4137F /* SXTabBarViewController.h */,
+				890E2E101CCF518900E4137F /* SXTabBarViewController.m */,
+				890E2E111CCF518900E4137F /* ThreeViewController.h */,
+				890E2E121CCF518900E4137F /* ThreeViewController.m */,
+				890E2E131CCF518900E4137F /* TwoViewController.h */,
+				890E2E141CCF518900E4137F /* TwoViewController.m */,
+			);
+			path = Class;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		890E2DC61CCF506100E4137F /* LLTbarBarViewController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 890E2DF41CCF506100E4137F /* Build configuration list for PBXNativeTarget "LLTbarBarViewController" */;
+			buildPhases = (
+				890E2DC31CCF506100E4137F /* Sources */,
+				890E2DC41CCF506100E4137F /* Frameworks */,
+				890E2DC51CCF506100E4137F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LLTbarBarViewController;
+			productName = LLTbarBarViewController;
+			productReference = 890E2DC71CCF506100E4137F /* LLTbarBarViewController.app */;
+			productType = "com.apple.product-type.application";
+		};
+		890E2DDF1CCF506100E4137F /* LLTbarBarViewControllerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 890E2DF71CCF506100E4137F /* Build configuration list for PBXNativeTarget "LLTbarBarViewControllerTests" */;
+			buildPhases = (
+				890E2DDC1CCF506100E4137F /* Sources */,
+				890E2DDD1CCF506100E4137F /* Frameworks */,
+				890E2DDE1CCF506100E4137F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				890E2DE21CCF506100E4137F /* PBXTargetDependency */,
+			);
+			name = LLTbarBarViewControllerTests;
+			productName = LLTbarBarViewControllerTests;
+			productReference = 890E2DE01CCF506100E4137F /* LLTbarBarViewControllerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		890E2DEA1CCF506100E4137F /* LLTbarBarViewControllerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 890E2DFA1CCF506100E4137F /* Build configuration list for PBXNativeTarget "LLTbarBarViewControllerUITests" */;
+			buildPhases = (
+				890E2DE71CCF506100E4137F /* Sources */,
+				890E2DE81CCF506100E4137F /* Frameworks */,
+				890E2DE91CCF506100E4137F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				890E2DED1CCF506100E4137F /* PBXTargetDependency */,
+			);
+			name = LLTbarBarViewControllerUITests;
+			productName = LLTbarBarViewControllerUITests;
+			productReference = 890E2DEB1CCF506100E4137F /* LLTbarBarViewControllerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		890E2DBF1CCF506100E4137F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "李龙";
+				TargetAttributes = {
+					890E2DC61CCF506100E4137F = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					890E2DDF1CCF506100E4137F = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 890E2DC61CCF506100E4137F;
+					};
+					890E2DEA1CCF506100E4137F = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 890E2DC61CCF506100E4137F;
+					};
+				};
+			};
+			buildConfigurationList = 890E2DC21CCF506100E4137F /* Build configuration list for PBXProject "LLTbarBarViewController" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 890E2DBE1CCF506100E4137F;
+			productRefGroup = 890E2DC81CCF506100E4137F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				890E2DC61CCF506100E4137F /* LLTbarBarViewController */,
+				890E2DDF1CCF506100E4137F /* LLTbarBarViewControllerTests */,
+				890E2DEA1CCF506100E4137F /* LLTbarBarViewControllerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		890E2DC51CCF506100E4137F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				890E2DDA1CCF506100E4137F /* LaunchScreen.storyboard in Resources */,
+				890E2E161CCF518900E4137F /* NextViewController.xib in Resources */,
+				890E2DD71CCF506100E4137F /* Assets.xcassets in Resources */,
+				890E2DD51CCF506100E4137F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		890E2DDE1CCF506100E4137F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		890E2DE91CCF506100E4137F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		890E2DC31CCF506100E4137F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				890E2E041CCF50B300E4137F /* VMTabBar.m in Sources */,
+				890E2E181CCF518900E4137F /* SXTabBarViewController.m in Sources */,
+				890E2E151CCF518900E4137F /* NextViewController.m in Sources */,
+				890E2E1A1CCF518900E4137F /* TwoViewController.m in Sources */,
+				890E2E031CCF50B300E4137F /* LLTabBar.m in Sources */,
+				890E2DCF1CCF506100E4137F /* AppDelegate.m in Sources */,
+				890E2DCC1CCF506100E4137F /* main.m in Sources */,
+				890E2E191CCF518900E4137F /* ThreeViewController.m in Sources */,
+				890E2E171CCF518900E4137F /* OneViewController.m in Sources */,
+				890E2E081CCF517800E4137F /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		890E2DDC1CCF506100E4137F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				890E2DE51CCF506100E4137F /* LLTbarBarViewControllerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		890E2DE71CCF506100E4137F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				890E2DF01CCF506100E4137F /* LLTbarBarViewControllerUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		890E2DE21CCF506100E4137F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 890E2DC61CCF506100E4137F /* LLTbarBarViewController */;
+			targetProxy = 890E2DE11CCF506100E4137F /* PBXContainerItemProxy */;
+		};
+		890E2DED1CCF506100E4137F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 890E2DC61CCF506100E4137F /* LLTbarBarViewController */;
+			targetProxy = 890E2DEC1CCF506100E4137F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		890E2DD31CCF506100E4137F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				890E2DD41CCF506100E4137F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		890E2DD81CCF506100E4137F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				890E2DD91CCF506100E4137F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		890E2DF21CCF506100E4137F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		890E2DF31CCF506100E4137F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		890E2DF51CCF506100E4137F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = LLTbarBarViewController/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zyht.LLTbarBarViewController;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		890E2DF61CCF506100E4137F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = LLTbarBarViewController/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zyht.LLTbarBarViewController;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		890E2DF81CCF506100E4137F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = LLTbarBarViewControllerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zyht.LLTbarBarViewControllerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LLTbarBarViewController.app/LLTbarBarViewController";
+			};
+			name = Debug;
+		};
+		890E2DF91CCF506100E4137F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = LLTbarBarViewControllerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zyht.LLTbarBarViewControllerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LLTbarBarViewController.app/LLTbarBarViewController";
+			};
+			name = Release;
+		};
+		890E2DFB1CCF506100E4137F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = LLTbarBarViewControllerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zyht.LLTbarBarViewControllerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = LLTbarBarViewController;
+			};
+			name = Debug;
+		};
+		890E2DFC1CCF506100E4137F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = LLTbarBarViewControllerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zyht.LLTbarBarViewControllerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = LLTbarBarViewController;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		890E2DC21CCF506100E4137F /* Build configuration list for PBXProject "LLTbarBarViewController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				890E2DF21CCF506100E4137F /* Debug */,
+				890E2DF31CCF506100E4137F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		890E2DF41CCF506100E4137F /* Build configuration list for PBXNativeTarget "LLTbarBarViewController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				890E2DF51CCF506100E4137F /* Debug */,
+				890E2DF61CCF506100E4137F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		890E2DF71CCF506100E4137F /* Build configuration list for PBXNativeTarget "LLTbarBarViewControllerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				890E2DF81CCF506100E4137F /* Debug */,
+				890E2DF91CCF506100E4137F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		890E2DFA1CCF506100E4137F /* Build configuration list for PBXNativeTarget "LLTbarBarViewControllerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				890E2DFB1CCF506100E4137F /* Debug */,
+				890E2DFC1CCF506100E4137F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 890E2DBF1CCF506100E4137F /* Project object */;
+}
