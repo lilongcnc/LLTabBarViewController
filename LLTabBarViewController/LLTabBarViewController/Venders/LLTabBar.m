@@ -54,14 +54,6 @@
 //        titlelab.backgroundColor = [self randomColor];
         titlelab.font = [UIFont boldSystemFontOfSize:11];
         titlelab.textAlignment = NSTextAlignmentCenter;
-        
-        
-//        [lb setTextColor:[UIColor colorWithRed:41/255.0f green:128/255.0f blue:185/255.0f alpha:        1]];
-//        [lb setFont:[UIFont systemFontOfSize:11]];
-//        CGPoint ctLb = CGPointMake(circle.center.x, circle.center.y + circle.bounds.size.height/2         + 10);
-//        [lb setCenter:ctLb];
-//            [self.listOfTextItemTabbar addObject:titlelab];
-    
         titlelab;
     });
     [self addSubview:_titleLabel];

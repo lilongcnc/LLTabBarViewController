@@ -9,8 +9,12 @@
 #import "SXTabBarViewController.h"
 #import "LLTabBar.h"
 
-//typedef NS_OPTIONS(NSUInteger, LLTaBar) {
-//};
+typedef NS_OPTIONS(NSUInteger, LLTabBarViewControllerStyle) {
+    LLTabBarViewControllerNormalStyle = 0,
+    LLTabBarViewControllerCenterTabBarUpStyle = 1, //类似于咸鱼等,tabbar数量为奇数时候中间凸起,可自定义凸起的位置
+    LLTabBarViewControllerCenterTabBarCenterStyle =2,  //类似于微博等,中间没有凸起但是占位比较大
+    LLTabBarViewControllerOnlyImageStyle   //类似于人人只有图片,没有 title
+};
 
 @interface SXTabBarViewController ()
 {
@@ -69,12 +73,15 @@
     [nav3.navigationBar setBarTintColor:[UIColor redColor]];
     
     //添加控制器
-    self.viewControllers = @[nav1,nav2,nav3,nav1,nav2];
+    self.viewControllers = @[nav1,nav2,nav3,nav1,nav3,nav2];
     
 }
 
 
 #pragma mark - === 自定义的TabBar ==
+
+static CGFloat const tabBarViewHeight = 49;//TabBarView高度
+
 - (void)creationCusTabBar
 {
 
@@ -88,21 +95,30 @@
     
     
     //自定义tabBar
-    CGFloat backgoundViewH = 49;
-    _BackgroundView = [[UIView alloc]initWithFrame:CGRectMake(0, ScreenHeight-backgoundViewH, ScreenWidth, backgoundViewH)];
-    //设置底部tabBar的颜色,可透明clearColor
-    _BackgroundView.backgroundColor = ColorWithRGB(238, 238, 238, 1.0);
-    [self.view addSubview:_BackgroundView];
+    _BackgroundView = ({
+        
+        UIView *tabBarView = [[UIView alloc]initWithFrame:CGRectMake(0, ScreenHeight-tabBarViewHeight, ScreenWidth, tabBarViewHeight)];
+        //设置底部tabBar的颜色,可透明clearColor
+        tabBarView.backgroundColor = ColorWithRGB(238, 238, 238, 1.0);
+        [self.view addSubview:tabBarView];
+        tabBarView;
     
+    });
     
-    _imageView = [[UIImageView alloc] initWithFrame:_BackgroundView.bounds];
-    _imageView.image = [UIImage imageNamed:@"icon_tabBar"];
-    _imageView.userInteractionEnabled = YES;
-    [_BackgroundView addSubview:_imageView];
-    /**
-     *  保持transform
-     */
+    _imageView = ({
+    
+        UIImageView *tabBarViewBgIconView = [[UIImageView alloc] initWithFrame:_BackgroundView.bounds];
+        tabBarViewBgIconView.image = [UIImage imageNamed:@"icon_tabBar"];
+        tabBarViewBgIconView.userInteractionEnabled = YES;
+        [_BackgroundView addSubview:tabBarViewBgIconView];
+        /**
+         *  保持transform
+         */
+        tabBarViewBgIconView;
+    });
+    
     trans = _BackgroundView.transform;
+    
 
     
     
@@ -126,25 +142,24 @@
     for (NSInteger i = 0; i<_titles.count; i++)
     {
         
-        LLTabBar *tabbarView = [[LLTabBar alloc] init];
+        LLTabBar *tabbar = [[LLTabBar alloc] init];
         
-        tabbarView.layer.borderColor = [self randomColor].CGColor;
-        tabbarView.layer.borderWidth = 2.f;
-        
+        tabbar.layer.borderColor = [self randomColor].CGColor;
+        tabbar.layer.borderWidth = 2.f;
         
         //设置凸起中间
         if(i==2){
-            tabbarView.frame = CGRectMake(margin+(tabBarwidth+margin)*i, -10, 50 , 49);
+            tabbar.frame = CGRectMake(margin+(tabBarwidth+margin)*i, -10, 50 , 49);
         }else{
-            tabbarView.frame = CGRectMake(margin+(tabBarwidth+margin)*i, 0, 50 , 49);
+            tabbar.frame = CGRectMake(margin+(tabBarwidth+margin)*i, 0, 50 , 49);
         }
         
-        tabbarView.tag = i;
-        tabbarView.normalImage = [UIImage imageNamed:norImagesArr[i]];
-        tabbarView.selectedImage = [UIImage imageNamed:seleImagesArr[i]];
-        tabbarView.title = _titles[i];
+        tabbar.tag = i;
+        tabbar.normalImage = [UIImage imageNamed:norImagesArr[i]];
+        tabbar.selectedImage = [UIImage imageNamed:seleImagesArr[i]];
+        tabbar.title = _titles[i];
         //接收点击事件
-        [tabbarView setTabBarViewClickBlock:^(LLTabBar *tabBar,NSInteger tag, UIImageView *iconView, UILabel *titleLabel) {
+        [tabbar setTabBarViewClickBlock:^(LLTabBar *tabBar,NSInteger tag, UIImageView *iconView, UILabel *titleLabel) {
            
             NSLog(@"%s--------tag:%zd----------iconView:%@-------titleLabel:%@",__FUNCTION__,tag,iconView,titleLabel.text);
             
@@ -153,19 +168,19 @@
         }];
         //设置默认选中
         if(i==0){
-            tabbarView.isDefault = YES;
+            tabbar.isDefault = YES;
         }
         
-        [_imageView addSubview:tabbarView];
+        [_imageView addSubview:tabbar];
         
-        [self.tabBarArray addObject:tabbarView];
+        [self.tabBarArray addObject:tabbar];
     }
     
     
 //    UIButton *butto = [[UIButton alloc] init];
 //    [butto setTitle:@"" forState:UIControlStateNormal];
     
-    _imageView.userInteractionEnabled = YES;
+//    _imageView.userInteractionEnabled = YES;
     
 }
 
