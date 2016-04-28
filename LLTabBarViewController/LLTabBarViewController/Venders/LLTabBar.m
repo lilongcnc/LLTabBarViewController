@@ -8,6 +8,7 @@
 //
 
 #import "LLTabBar.h"
+#import "LxDBAnything.h"
 
 @interface LLTabBar ()
 
@@ -33,7 +34,7 @@
     
     _iconView = ({
     
-        UIImageView *tmpIconView = [[UIImageView alloc] initWithFrame:CGRectMake(0, 0, 30, 28)];
+        UIImageView *tmpIconView = [[UIImageView alloc] initWithFrame:CGRectMake(0, 0, 24, 24)];
 //        tmpIconView.backgroundColor = [UIColor redColor];
 //        tmpIconView.userInteractionEnabled = YES;
 //        UITapGestureRecognizer *pan = [[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(clickTab:)];
@@ -112,7 +113,6 @@ static const CGFloat marignTB = 3;
     tempRect.origin.y = CGRectGetMaxY(_iconView.frame) + marignTB;
     tempRect.size.height = titlelabSize.height;
     tempRect.size.width = self.frame.size.width;
-//    NSLog(@">>>%f---%f",CGRectGetMaxY(_iconView.frame),self.frame.size.width);
     _titleLabel.frame = tempRect;
     
 }
@@ -123,6 +123,14 @@ static const CGFloat marignTB = 3;
     _tabBarViewClickBlock(self,self.tag,_iconView,_titleLabel);
     
 }
+
+
+-(void)setIconViewSize:(CGSize)iconSize{
+    CGRect tempRect = _iconView.frame;
+    tempRect.size = iconSize;
+    _iconView.frame = tempRect;
+}
+
 
 
 - (UIColor *) randomColor

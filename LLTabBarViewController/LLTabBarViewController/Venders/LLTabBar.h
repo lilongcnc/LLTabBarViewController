@@ -37,5 +37,6 @@
  */
 @property (nonatomic,copy) void(^tabBarViewClickBlock)(LLTabBar *tabBar,NSInteger viewTag,UIImageView *iocnView,UILabel *titleLabel);
 
+-(void)setIconViewSize:(CGSize)iconSize;
 
 @end

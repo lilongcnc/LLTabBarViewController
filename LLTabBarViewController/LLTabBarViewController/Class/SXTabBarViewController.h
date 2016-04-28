@@ -32,4 +32,7 @@
 - (void)HideTabarView:(BOOL)isHideen  animated:(BOOL)animated;
 
 
+
+
+
 @end

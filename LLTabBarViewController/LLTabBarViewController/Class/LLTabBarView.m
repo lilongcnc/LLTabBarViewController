@@ -8,6 +8,7 @@
 
 #import "LLTabBarView.h"
 #import "LLTabBar.h"
+#import "LxDBAnything.h"
 
 #define ColorWithRGB(r,g,b,p)   [UIColor colorWithRed:r/255.0 green:g/255.0 blue:b/255.0 alpha:p]
 #define LLKeyWindowSize [UIScreen mainScreen].bounds.size
@@ -117,6 +118,7 @@ static CGFloat const tabBarwidth = 50;
     //设置点击view的样式
     CGFloat margin = (LLKeyWindowSize.width - tabBarwidth*titleArrCount)/(titleArrCount+1);
     
+    NSInteger index = 0;
     for (NSInteger i = 0; i<titleArrCount; i++)
     {
         
@@ -126,11 +128,16 @@ static CGFloat const tabBarwidth = 50;
         tabbar.layer.borderWidth = 2.f;
         
         //设置凸起中间
-        if(i==2){
-            tabbar.frame = CGRectMake(margin+(tabBarwidth+margin)*i, -10, 50 , 49);
-        }else{
-            tabbar.frame = CGRectMake(margin+(tabBarwidth+margin)*i, 0, 50 , 49);
-        }
+//        if(i==2){
+//            tabbar.frame = CGRectMake(margin+(tabBarwidth+margin)*i, -10, 50 , 49);
+//            [tabbar setIconViewSize:CGSizeMake(56, 56)];
+//        }else{
+        LxDBAnyVar(((titleArrCount-1)*0.5-1));
+        NSInteger aaa = i>((titleArrCount-1)*0.5-1)?i:index++;
+        LxDBAnyVar(aaa);
+            tabbar.frame = CGRectMake(margin+(tabBarwidth+margin)*aaa, 0, 50 , 49);
+            index++;
+//        }
         
         tabbar.tag = i;
         tabbar.normalImage = [UIImage imageNamed:norImagesArr[i]];

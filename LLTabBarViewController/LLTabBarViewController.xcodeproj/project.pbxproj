@@ -78,6 +78,7 @@
 		8B452E9E1CCFB421009E61B1 /* VMTabBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VMTabBar.m; sourceTree = "<group>"; };
 		8B452EA81CCFBE8A009E61B1 /* LLTabBarView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LLTabBarView.h; sourceTree = "<group>"; };
 		8B452EA91CCFBE8A009E61B1 /* LLTabBarView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LLTabBarView.m; sourceTree = "<group>"; };
+		8B5CB43C1CD243AB0006D2C7 /* LxDBAnything.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LxDBAnything.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -188,6 +189,7 @@
 		8B452E991CCFB421009E61B1 /* Venders */ = {
 			isa = PBXGroup;
 			children = (
+				8B5CB43C1CD243AB0006D2C7 /* LxDBAnything.h */,
 				8B452E5D1CCFB403009E61B1 /* AppDelegate.h */,
 				8B452E5E1CCFB403009E61B1 /* AppDelegate.m */,
 				8B452E9A1CCFB421009E61B1 /* ILSingletom.h */,
