@@ -132,12 +132,20 @@ static CGFloat const tabBarwidth = 50;
 //            tabbar.frame = CGRectMake(margin+(tabBarwidth+margin)*i, -10, 50 , 49);
 //            [tabbar setIconViewSize:CGSizeMake(56, 56)];
 //        }else{
-        LxDBAnyVar(((titleArrCount-1)*0.5-1));
-        NSInteger aaa = i>((titleArrCount-1)*0.5-1)?i:index++;
-        LxDBAnyVar(aaa);
-            tabbar.frame = CGRectMake(margin+(tabBarwidth+margin)*aaa, 0, 50 , 49);
-            index++;
-//        }
+        
+//        NSInteger aaa = i>((titleArrCount-1)*0.5-1)?i:index++;
+//        CGFloat buttonX = buttonW * ((index > 1)?(index + 1):index);
+        //设置除了中间之外的按钮
+        if (i == (titleArrCount-1)/2) {
+            continue;
+        }
+        CGFloat buttonX = (margin+(tabBarwidth+margin)*(index > 1?(index + 1):index));
+        LxDBAnyVar(index);
+        tabbar.frame = CGRectMake(buttonX, 0, 50 , 49);
+        index++;
+        LxDBAnyVar(index);
+        
+        
         
         tabbar.tag = i;
         tabbar.normalImage = [UIImage imageNamed:norImagesArr[i]];
@@ -162,7 +170,14 @@ static CGFloat const tabBarwidth = 50;
         [_imageView addSubview:tabbar];
         [self.tabBarArray addObject:tabbar];
     }
+    
+    
+    
+    
+    //设置中间的按钮
 }
+
+
 
 
 
